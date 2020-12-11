@@ -18,7 +18,7 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <div className="cards">
-            <h1> interactive learning hardware & assembly</h1>
+            <h1> Interactive learning hardware & assembly</h1>
               <CardGroup>
                 <Card>
                   <Card.Body>

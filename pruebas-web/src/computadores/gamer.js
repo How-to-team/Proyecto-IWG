@@ -22,6 +22,9 @@ const gamer = () => {
                 <Switch>
                     <Route path='/pcgamer' exact>
                     <div>
+                        <Link to='./pcgamer/mothergamer' exact>
+                                    <Button>Placa madre render</Button>
+                        </Link>
                         <Link to= './pcgamer/cpugamer' exact>
                             <Button>cpu</Button>
                         </Link>
@@ -36,9 +39,6 @@ const gamer = () => {
                         </Link>
                         <Link to='./pcgamer/m2gamer' exact>
                                     <Button>m2 render</Button>
-                        </Link>
-                        <Link to='./pcgamer/mothergamer' exact>
-                                    <Button>Placa madre render</Button>
                         </Link>
                         <Link to='./pcgamer/psugamer' exact>
                                     <Button> PSU (Fuente de poder) render</Button>

@@ -22,6 +22,7 @@ const oficina = () => {
                 <Switch>
                     <Route path='/pcoffice' exact>
                         <div>
+                            
                             <Link to= './pcoffice/cpuoficina' exact>
                                 <Button>cpu</Button>
                             </Link>
