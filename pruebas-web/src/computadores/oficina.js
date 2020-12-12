@@ -22,8 +22,10 @@ const oficina = () => {
                 <Switch>
                     <Route path='/pcoffice' exact>
                         <div>
-                            
-                            <Link to= './pcoffice/cpuoficina' exact>
+                            <img src='https://cdn.discordapp.com/attachments/775904281671893042/786491326820646932/z230_version_pagina.png' alt='Foto Oficina' width='787'></img>
+                        </div>
+                        <div>
+                           <Link to= './pcoffice/cpuoficina' exact>
                                 <Button>cpu</Button>
                             </Link>
                             <Link to='./pcoffice/frontpaneloficina' exact>

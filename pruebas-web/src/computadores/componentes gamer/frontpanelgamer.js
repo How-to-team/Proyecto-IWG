@@ -43,7 +43,7 @@ export default function StickyFooter() {
                 <CssBaseline />
                 <Container component="main" className={classes.main} maxWidth="sm">
                     <Typography variant="h1" component="h1" gutterBottom>
-                    Componente del computador
+                    Panel Frontal del gabinete
                     </Typography>
                     <Typography variant="h5" component="h2" gutterBottom>
                     {"Breve descripcion del componente"}

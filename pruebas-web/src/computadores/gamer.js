@@ -21,32 +21,35 @@ const gamer = () => {
             <div>
                 <Switch>
                     <Route path='/pcgamer' exact>
-                    <div>
-                        <Link to='./pcgamer/mothergamer' exact>
-                                    <Button>Placa madre render</Button>
-                        </Link>
-                        <Link to= './pcgamer/cpugamer' exact>
-                            <Button>cpu</Button>
-                        </Link>
-                        <Link to='./pcgamer/frontpanelgamer' exact>
-                                    <Button> front Panel </Button>
-                        </Link>
-                        <Link to='./pcgamer/hddgamer' exact>
-                                    <Button> HDD   </Button>
-                        </Link>
-                        <Link to='./pcgamer/gpugamer' exact>
-                                    <Button>GPU render</Button>
-                        </Link>
-                        <Link to='./pcgamer/m2gamer' exact>
-                                    <Button>m2 render</Button>
-                        </Link>
-                        <Link to='./pcgamer/psugamer' exact>
-                                    <Button> PSU (Fuente de poder) render</Button>
-                        </Link>
-                        <Link to='./pcgamer/ramgamer' exact>
-                                    <Button>RAM</Button>
-                        </Link>
-                    </div>
+                        <div>
+                            <img src='https://media.discordapp.net/attachments/775904281671893042/786367822825127946/703-Negro-6_version_pagina.png?width=789&height=683' alt='Foto Gamer'></img>
+                        </div>
+                        <div>
+                            <Link to='./pcgamer/mothergamer' exact>
+                                        <Button>Placa madre render</Button>
+                            </Link>
+                            <Link to= './pcgamer/cpugamer' exact>
+                                <Button>cpu</Button>
+                            </Link>
+                            <Link to='./pcgamer/frontpanelgamer' exact>
+                                        <Button> front Panel </Button>
+                            </Link>
+                            <Link to='./pcgamer/hddgamer' exact>
+                                        <Button> HDD   </Button>
+                            </Link>
+                            <Link to='./pcgamer/gpugamer' exact>
+                                        <Button>GPU render</Button>
+                            </Link>
+                            <Link to='./pcgamer/m2gamer' exact>
+                                        <Button>m2 render</Button>
+                            </Link>
+                            <Link to='./pcgamer/psugamer' exact>
+                                        <Button> PSU (Fuente de poder) render</Button>
+                            </Link>
+                            <Link to='./pcgamer/ramgamer' exact>
+                                        <Button>RAM</Button>
+                            </Link>
+                        </div>
 
                     </Route>
                 </Switch>
