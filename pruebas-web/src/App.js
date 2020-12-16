@@ -1,94 +1,75 @@
 import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, CardGroup } from "react-bootstrap";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from "react-router-dom";
-import Gamer from "./computadores/gamer"
-import Office from "./computadores/oficina"
-import Render from "./computadores/renderizado"
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Nav from "./navegacion";
+import Gamer from "./computadores/gamer";
+import Cpugamer from './computadores/componentes gamer/cpugamer';
+import Frontpanelgamer from './computadores/componentes gamer/frontpanelgamer';
+import Gpugamer from './computadores/componentes gamer/gpugamer';
+import Hddgamer from './computadores/componentes gamer/hddgamer';
+import M2gamer from './computadores/componentes gamer/m2gamer';
+import Mothergamer from './computadores/componentes gamer/mothergamer';
+import Psugamer from './computadores/componentes gamer/psugamer';
+import Ramgamer from './computadores/componentes gamer/ramgamer';
+import Office from "./computadores/oficina";
+import Cpuoficina from './computadores/componentes oficina/cpuoficina';
+import Frontpaneloficina from './computadores/componentes oficina/frontpaneloficina';
+import Hddoficina from './computadores/componentes oficina/hddoficina';
+import LectorCDoficina from './computadores/componentes oficina/lectorCDoficina';
+import Motheroficina from './computadores/componentes oficina/motheroficina';
+import Psuoficina from './computadores/componentes oficina/psuoficina';
+import Ramoficina from './computadores/componentes oficina/ramoficina';
+import Render from "./computadores/renderizado";
+import Cpurender from './computadores/componentes renderizados/cpurender';
+import Frontpanelrender from './computadores/componentes renderizados/frontpanelrender';
+import Gpurender from './computadores/componentes renderizados/gpurender';
+import Hddrender from './computadores/componentes renderizados/hddrender';
+import M2render from './computadores/componentes renderizados/m2render';
+import Motherrender from './computadores/componentes renderizados/motherrender';
+import Psurender from './computadores/componentes renderizados/psurender';
+import Ramrender from './computadores/componentes renderizados/ramrender';
+
+
+
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/" exact>
-            <div className="cards">
-            <h1> Interactive learning hardware & assembly</h1>
-              <CardGroup>
-                <Card>
-                  <Card.Body>
-                    <Card.Title>PC Gamer</Card.Title>
-                    <Card.Text>
-                      En esta sección te enseñaremos a ensamblar un computador diseñado para juegos donde principalmente se requerirá de componentes capaces de correr todo tipo de títulos a altas cantidades de fotogramas.
-                    </Card.Text>
-                    <Card.Img variant="top" src="https://cdn.discordapp.com/attachments/775904281671893042/779732562707742751/703-Negro-6.png" />
-                  </Card.Body>
-                  <Card.Footer>       
-                      <Link to="./pcgamer">
-                        <Button variant="primary">ir al computador gamer</Button>
-                      </Link>
-                  </Card.Footer>
-                </Card>
-                <Card>
-                  <Card.Body>
-                    <Card.Title>PC de renderizados</Card.Title>
-                    <Card.Text>
-                      En esta sección te enseñaremos a ensamblar un computador de renderizados donde los núcleos y los hilos de trabajo son lo mas importante a la hora de realizar procesos exigentes.
-                    </Card.Text>
-                    <Card.Img variant="top" src="https://media.discordapp.net/attachments/775904281671893042/783393394989989938/258152.png?width=567&height=567" />
-                  </Card.Body>
-                  <Card.Footer>
-                    <Link to="./pcrender">
-                      <Button variant="primary">ir al computador de renderizados</Button>
-                    </Link>
-                  </Card.Footer>
-                </Card>
-                <Card>
-                  <Card.Body>
-                    <Card.Title>PC de oficina</Card.Title>
-                    <Card.Text>
-                      En esta sección te enseñaremos a ensamblar un computador para oficina donde solamente se requieren componentes básicos capaces de correr programas con fines administrativos.
-                      <br/>
-                      <br/>
-                      <br/>
-          
-                    </Card.Text>
-                    <Card.Img variant="top" src="https://media.discordapp.net/attachments/775904281671893042/783396199679262731/z230-.png?width=580&height=495"/>
-                  </Card.Body>
-                  <Card.Footer>
-                    <Link to="./pcoffice">
-                      <Button variant="primary">ir al computador de oficina</Button>
-                    </Link>
-                  </Card.Footer>
-                </Card>
-              </CardGroup>
-            </div>
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/pcgamer">
-            <Gamer/>
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/pcoffice">
-            <Office/>
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/pcrender">
-            <Render/>
-          </Route>
+          <Route path="/" exact component={Nav}/>
+          <Route path="/pcgamer" exact component={Gamer}/>
+          <Route path='/pcgamer/cpugamer' component={Cpugamer}/>
+          <Route path='/pcgamer/frontpanelgamer' component={Frontpanelgamer}/>
+          <Route path='/pcgamer/gpugamer' component={Gpugamer}/>
+          <Route path='/pcgamer/hddgamer' component={Hddgamer}/>
+          <Route path='/pcgamer/m2gamer' component={M2gamer}/>
+          <Route path='/pcgamer/mothergamer' component={Mothergamer}/>
+          <Route path='/pcgamer/psugamer' component={Psugamer}/>
+          <Route path='/pcgamer/ramgamer' component={Ramgamer}/>
+          <Route path="/pcoffice" exact component={Office}/>
+          <Route path="/pcoffice/cpuoficina" component={Cpuoficina} />
+          <Route path='/pcoffice/frontpaneloficina' component={Frontpaneloficina} />
+          <Route path='/pcoffice/hddoficina' component={Hddoficina} />
+          <Route path='/pcoffice/lectorCDoficina' component={LectorCDoficina} />
+          <Route path='/pcoffice/motheroficina' component={Motheroficina} />
+          <Route path='/pcoffice/psuoficina' component={Psuoficina} />
+          <Route path='/pcoffice/ramoficina' component={Ramoficina} />
+          <Route path="/pcrender" exact component={Render}/>
+          <Route path='/pcrender/cpurender' exact component={Cpurender}/>
+          <Route path='/pcrender/frontpanelrender' exact component={Frontpanelrender}/>
+          <Route path='/pcrender/gpurender' exact component={Gpurender}/>
+          <Route path='/pcrender/hddrender' exact component={Hddrender}/>
+          <Route path='/pcrender/m2render' exact component={M2render}/>
+          <Route path='/pcrender/motherrender' exact component={Motherrender}/>
+          <Route path='/pcrender/psurender' exact component={Psurender}/>
+          <Route path='/pcrender/ramrender' exact component={Ramrender}/>
         </Switch>
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
+
+
+
 
