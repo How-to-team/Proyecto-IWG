@@ -3,6 +3,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import Button from '@material-ui/core/Button';
 import {
     Link
   } from "react-router-dom";
@@ -44,12 +45,11 @@ export default function StickyFooter() {
       </Container>
       <footer className={classes.footer}>
         <Container maxWidth="sm">
-        <Typography variant="body1">Aqui iran dos botones, uno para avanzar y otro para retroceder</Typography>
         <Link to='/pcgamer/mothergamer'>
-          <button>Atras</button>
+          <Button variant="contained" color="primary">Anterior</Button>
         </Link>
         <Link to='/pcgamer/ramgamer'>
-          <button>Adelante</button>
+          <Button variant="contained" color="primary" >Siguiente</Button>
         </Link>
         </Container>
       </footer>

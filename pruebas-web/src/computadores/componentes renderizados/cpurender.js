@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { Link } from "react-router-dom";
+import Button from '@material-ui/core/Button';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -41,12 +42,11 @@ export default function StickyFooter() {
       </Container>
       <footer className={classes.footer}>
         <Container maxWidth="sm">
-          <Typography variant="body1">Aqui iran dos botones, uno para avanzar y otro para retroceder</Typography>
           <Link to='/pcrender/motherrender'>
-            <button>Atras</button>
+            <Button variant="contained" color="primary">Anterior</Button>
           </Link>
           <Link to='/pcrender/ramrender'>
-            <button>Adelante</button>
+            <Button variant="contained" color="primary">Siguiente</Button>
           </Link>
         </Container>
       </footer>

@@ -1,6 +1,5 @@
 import React from 'react'
 import {Button} from "react-bootstrap";
-import Switch from 'react-bootstrap/esm/Switch';
 import {
   Link
 } from "react-router-dom";
