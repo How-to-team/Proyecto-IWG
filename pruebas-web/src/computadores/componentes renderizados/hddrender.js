@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function StickyFooter() {
+export default function StickyFooter(props) {
   const classes = useStyles();
 
   return (
@@ -35,7 +35,7 @@ export default function StickyFooter() {
           Disco duro (HDD)
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom>
-          {"Breve descripcion del componente"}
+          breve descripcion
         </Typography>
         <Typography variant="body1">cuerpo de la descripcion del componente.</Typography>
       </Container>
