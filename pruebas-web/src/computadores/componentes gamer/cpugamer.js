@@ -56,6 +56,7 @@ export default function StickyFooter() {
         <Typography variant="h2">
           Como ensamblar un procesador
         </Typography>
+        <br/>
         <Typography variant="body1" component="h6">
           A continuación les mostraremos un video que te ayudará a instalar el procesador de manera correcta.
         </Typography>
