@@ -14,13 +14,19 @@ import background from "./imagenes gamer/background.jpeg"
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundImage: `url(${background})`,
-    backgroundSize: "cover",
     backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
     color: "white",
+    backgroundAttachment: "fixed",
   },
+  main: {
+    marginTop: theme.spacing(8),
+    marginBottom: theme.spacing(2),
+
   video: {
     margin: "15px",
   },
@@ -28,9 +34,6 @@ const useStyles = makeStyles((theme) => ({
     margin: "15px",
 
   },
-  main: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(2),
 
   },
   footer: {
