@@ -9,11 +9,11 @@ import {
 import Button from '@material-ui/core/Button';
 import ReactPlayer from "react-player";
 import jfp from './imagenes gamer/jfp.jpg'
-
+import background from "./imagenes gamer/background.jpeg"
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: "url(https://images.pexels.com/photos/4915606/pexels-photo-4915606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+    backgroundImage: `url(${background})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     display: 'flex',
@@ -50,14 +50,14 @@ export default function StickyFooter() {
         <Typography variant="h1" component="h1" gutterBottom>
           Panel frontal del gabinete 
         </Typography>
-        <Typography variant="body1" component="h6">El panel frontal corresponde a las funcionalidades que vienen incluidas en el gabinete, dentro de estas funcionalidades encontramos: El boton de encendido y apagado (Power SW y Reset SW), leds que nos indican que está encendida la máquina (Power led+ y Power led-) y un led que nos indica que el disco duro está funcionando correctamente (H.D.D LED).   </Typography>
+        <Typography variant="h5" component="h2" gutterBottom>El panel frontal corresponde a las funcionalidades que vienen incluidas en el gabinete, dentro de estas funcionalidades encontramos: El boton de encendido y apagado (Power SW y Reset SW), leds que nos indican que está encendida la máquina (Power led+ y Power led-) y un led que nos indica que el disco duro está funcionando correctamente (H.D.D LED).   </Typography>
         <Typography variant="h2">
           Como conectar los cables del panel frontal
         </Typography>
-        <Typography variant="body1" component="h5">
+        <Typography variant="h6" component="h5" gutterBottom>
           A continuación podras ver un video que te ayudará a conectar los cables del panel frontal de manera correcta.
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="h6" component="h5" gutterBottom>
           <ReactPlayer url="https://youtu.be/linZDwva1Ec?t=8" className={classes.video} />
           La conexion del panel frontal siempre será igual para todos los computadores, sin embargo, los pines a los que van conectados pueden cambiar de lugar dependiendo de la placa madre.
           En la siguiente imagen se mostrará la forma que tienen los conectores del panel frontal.

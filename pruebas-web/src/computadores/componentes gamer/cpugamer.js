@@ -8,12 +8,12 @@ import {
     Link
   } from "react-router-dom";
 import ReactPlayer from "react-player"
-
+import background from "./imagenes gamer/background.jpeg"
 
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: "url(https://images.pexels.com/photos/4915606/pexels-photo-4915606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+    backgroundImage: `url(${background})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     display: 'flex',
