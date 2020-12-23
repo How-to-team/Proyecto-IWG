@@ -44,6 +44,11 @@ export default function StickyFooter() {
           <Link to='/pcrender/hddrender'>
             <Button variant="contained" color="primary">Anterior</Button>
           </Link>
+          <br/>
+          <br/>
+          <Link to="/pcrender">
+            <Button variant="contained" color="primary" fullWidth="5px">Pc de renderizado</Button>
+          </Link>
         </Container>
       </footer>
     </div>

@@ -95,6 +95,11 @@ export default function StickyFooter() {
         <Link to='/pcgamer/m2gamer'>
           <Button variant="contained" color="primary">Siguiente</Button>
         </Link>
+        <br/>
+        <br/>
+        <Link to='/pcgamer'>
+          <Button variant="contained" color="primary" fullWidth="5px">Pc Gamer</Button>
+        </Link>
         </Container>
       </footer>
     </div>

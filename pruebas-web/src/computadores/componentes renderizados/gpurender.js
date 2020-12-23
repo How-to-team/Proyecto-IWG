@@ -47,6 +47,11 @@ export default function StickyFooter() {
           <Link to='/pcrender/m2render'>
             <Button variant="contained" color="primary">Siguiente</Button>
           </Link>
+          <br/>
+          <br/>
+          <Link to="/pcrender">
+            <Button variant="contained" color="primary" fullWidth="5px">Pc de renderizado</Button>
+          </Link>
         </Container>
       </footer>
     </div>

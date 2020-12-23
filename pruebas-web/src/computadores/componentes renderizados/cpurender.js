@@ -48,6 +48,11 @@ export default function StickyFooter() {
           <Link to='/pcrender/ramrender'>
             <Button variant="contained" color="primary">Siguiente</Button>
           </Link>
+          <br/>
+          <br/>
+          <Link to="/pcrender">
+            <Button variant="contained" color="primary" fullWidth="5px">Pc de renderizado</Button>
+          </Link>
         </Container>
       </footer>
     </div>

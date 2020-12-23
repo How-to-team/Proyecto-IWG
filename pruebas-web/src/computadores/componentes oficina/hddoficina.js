@@ -49,6 +49,11 @@ export default function StickyFooter() {
           <Link to='/pcoffice/frontpaneloficina'>
             <Button variant="contained" color="primary">Siguiente</Button>
           </Link>
+          <br/>
+          <br/>
+          <Link to="/pcoffice">
+            <Button variant="contained" color="primary" fullWidth="5px">Pc de oficina</Button>
+          </Link>
         </Container>
       </footer>
     </div>
