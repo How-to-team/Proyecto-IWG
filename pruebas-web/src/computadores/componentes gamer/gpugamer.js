@@ -54,7 +54,7 @@ export default function StickyFooter() {
           La tarjeta gráfica siempre debe ir instalada en la primera ranura PCIe de nuestra placa base
         </Typography>
         <br/>
-        <img src='https://cdn.discordapp.com/attachments/775904281671893042/791057517223739452/placa.jpg' width='500px'></img>
+        <img src='https://cdn.discordapp.com/attachments/775904281671893042/791057517223739452/placa.jpg' alt="placa" width='500px'></img>
         <br/>
         <br/>
         <Typography variant="body1" component="h6">
@@ -68,7 +68,7 @@ export default function StickyFooter() {
         <text>Cuando estés conforme con la instalación, debes colocar los tornillos de la placa posterior para mantenerla firmemente en su lugar. Si es necesario, puedes desplazar la tarjeta ligeramente en su ranura para ajustar mejor los tornillos.</text>
         <br/>
         <br/>
-        <img src='https://cdn.discordapp.com/attachments/775904281671893042/791065977235570718/atornillar-gpu.jpg' width='500px'></img>
+        <img src='https://cdn.discordapp.com/attachments/775904281671893042/791065977235570718/atornillar-gpu.jpg' alt="atornilllar gpu" width='500px'></img>
         <Typography variant="h3">
           Conección de los cables de alimentación
         </Typography>
@@ -77,7 +77,7 @@ export default function StickyFooter() {
         Luego, Localiza los cables correctos que necesitas. Pueden ser uno o dos conectores de alimentación PCI Express de 6 u 8 pines. Verifica que tengas los correctos, ya que usar el cable de alimentación incorrecto podría dañar los componentes.
         </Typography>
         <br/>
-        <img src='https://cdn.discordapp.com/attachments/775904281671893042/791068453598527488/cables_de_alimentacion.jpg' width='500px'></img>
+        <img src='https://cdn.discordapp.com/attachments/775904281671893042/791068453598527488/cables_de_alimentacion.jpg' alt="cables" width='500px'></img>
         <br/>
         <br/>
         <Typography variant="body1" component="h6">
