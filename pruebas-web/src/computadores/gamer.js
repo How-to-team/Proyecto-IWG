@@ -13,10 +13,10 @@ function Gamer() {
                     <button className="btncpu"></button>
                 </Link>
                 <Link to='/pcgamer/ramgamer'>
-                    <button>3-. RAM</button>
+                    <button className="btnram">3-. RAM</button>
                 </Link>
                 <Link to='/pcgamer/gpugamer'>
-                    <button>4-. Tarjeta Grafica</button>
+                    <button className="btngpu">4-. Tarjeta Grafica</button>
                 </Link>
                 <Link to='/pcgamer/m2gamer'>
                     <button>5-. Memoria SSD </button>
