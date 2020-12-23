@@ -4,7 +4,7 @@ import "./gamer.css"
 
 function Gamer() {
     return (
-        <div className='App'>
+        <div className='Appgamer'>
             <div>
                 <Link to="/pcgamer/mothergamer">
                     <button className="btnmb"></button>

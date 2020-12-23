@@ -1,23 +1,25 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button, CardGroup } from "react-bootstrap";
+import { Card, Button, CardDeck } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+
 
 function navegacion() {
   return (
       <nav>
-        <div className="App">
+        <div className="Appnav">
             <div className="cards">
-                <h1> Interactive learning hardware & assembly</h1>
-                <CardGroup>
-                    <Card>
+                <h1 className='titulo'> Interactive learning hardware & assembly</h1>
+                <CardDeck>
+                    <Card className='cardgamer' bg='info' border='dark'>
                     <Card.Body>
                         <Card.Title>PC Gamer</Card.Title>
                         <Card.Text>
                         En esta sección te enseñaremos a ensamblar un computador diseñado para juegos donde principalmente se requerirá de componentes capaces de correr todo tipo de títulos a altas cantidades de fotogramas.
                         </Card.Text>
-                        <Card.Img variant="top" src="https://cdn.discordapp.com/attachments/775904281671893042/779732562707742751/703-Negro-6.png" />
+                        <Card.Img variant="top" src="https://cdn.discordapp.com/attachments/775904281671893042/791363481092882452/703-Negro-6.png" />
                     </Card.Body>
                     <Card.Footer>       
                         <Link to="/pcgamer">
@@ -25,13 +27,13 @@ function navegacion() {
                         </Link>
                     </Card.Footer>
                     </Card>
-                    <Card>
+                    <Card bg='success' border='dark'>
                     <Card.Body>
                         <Card.Title>PC de renderizados</Card.Title>
                         <Card.Text>
                         En esta sección te enseñaremos a ensamblar un computador de renderizados donde los núcleos y los hilos de trabajo son lo mas importante a la hora de realizar procesos exigentes.
                         </Card.Text>
-                        <Card.Img variant="top" src="https://media.discordapp.net/attachments/775904281671893042/783393394989989938/258152.png?width=567&height=567" />
+                        <Card.Img variant="top" src="https://media.discordapp.net/attachments/775904281671893042/783394618321666129/258152.png?width=567&height=567" />
                     </Card.Body>
                     <Card.Footer>
                         <Link to="/pcrender">
@@ -39,7 +41,7 @@ function navegacion() {
                         </Link>
                     </Card.Footer>
                     </Card>
-                    <Card>
+                    <Card bg='danger' border='dark'>
                     <Card.Body>
                         <Card.Title>PC de oficina</Card.Title>
                         <Card.Text>
@@ -57,7 +59,7 @@ function navegacion() {
                         </Link>
                     </Card.Footer>
                     </Card>
-                </CardGroup>
+                </CardDeck>
             </div>
         </div>
       </nav>
