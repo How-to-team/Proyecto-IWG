@@ -35,10 +35,12 @@ function Gamer() {
                 <img className="pcgamer" src='https://media.discordapp.net/attachments/775904281671893042/786367822825127946/703-Negro-6_version_pagina.png?width=789&height=683' alt='Foto Gamer'/>
             </div>
             <br/>
-            <br/>
             <div>
                 <h3>Te recomendamos empezar por la placa madre para una mejor experiencia aprendiendo ;)</h3>
             </div>
+            <Link to='/'>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Volver a la página principal</button>
+            </Link>
         </div>
     );
 }

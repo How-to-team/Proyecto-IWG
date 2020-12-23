@@ -1,6 +1,6 @@
 .btnmb {
     position: absolute;
-    left: 408px;
+    left: 401px;
     top: 330px;
     width: 115px;
     height: 168px;
@@ -9,7 +9,7 @@
 }
 .btncpu {
     position: absolute;
-    left: 516px;
+    left: 509px;
     top: 14px;
     width: 159px;
     height: 105px;
@@ -18,7 +18,7 @@
 }
 .btnram {
     position: absolute;
-    left: 718px;
+    left: 711px;
     top: 30px;
     width: 127px;
     height: 101px;
@@ -27,7 +27,7 @@
 }
 .btngpu {
     position: absolute;
-    left: 408px;
+    left: 401px;
     top: 169px;
     width: 118px;
     height: 121px;
@@ -36,17 +36,17 @@
 }
 .btnm2 {
     position: absolute;
-    left: 860px;
+    left: 853px;
     top: 610px;
     width: 225px;
     height: 70px;
     background-color:rgba(3, 9, 99, .0);
     border-radius: 5px;
-    border-style: hidden;
+    border-style: hidden;           
 }
 .btnpsu {
     position: absolute;
-    left: 539px;
+    left: 532px;
     top: 538px;
     width: 158px;
     height: 134px;
@@ -55,7 +55,7 @@
 }
 .btnhdd {
     position: absolute;
-    left: 937px;
+    left: 930px;
     top: 519px;
     width: 148px;
     height: 92px;
@@ -65,7 +65,7 @@
 }
 .btnfp {
     position: absolute;
-    left: 970px;
+    left: 963px;
     top: 351px;
     width: 169px;
     height: 131px;
