@@ -1,5 +1,4 @@
 import React from 'react'
-import {Button} from "react-bootstrap";
 import {
   Link
 } from "react-router-dom";
@@ -8,30 +7,30 @@ const oficina = () => {
     return (
             <div>
                 <div>
-                    <img src='https://cdn.discordapp.com/attachments/775904281671893042/786491326820646932/z230_version_pagina.png' alt='Foto Oficina' width='787'></img>
-                </div>
-                <div>
                     <Link to= '/pcoffice/cpuoficina'>
-                        <Button>cpu</Button>
+                        <button className='btncpu'>cpu</button>
                     </Link>
                     <Link to='/pcoffice/frontpaneloficina'>
-                        <Button> front Panel </Button>
+                        <button className='btnfrontpanel'> front Panel </button>
                     </Link>
                     <Link to='/pcoffice/hddoficina'>
-                        <Button> HDD   </Button>
+                        <button className='btnhdd'> HDD   </button>
                     </Link>
                     <Link to='/pcoffice/lectorCDoficina'>
-                        <Button>Lector de CD</Button>
+                        <button>Lector de CD</button>
                     </Link>
                     <Link to='/pcoffice/motheroficina'>
-                        <Button>Placa madre</Button>
+                        <button>Placa madre</button>
                     </Link>
                     <Link to='/pcoffice/psuoficina'>
-                        <Button> PSU (Fuente de poder)</Button>
+                        <button> PSU (Fuente de poder)</button>
                     </Link>
                     <Link to='/pcoffice/ramoficina'>
-                        <Button>RAM</Button>
+                        <button>RAM</button>
                     </Link>
+                </div>
+                <div>
+                    <img src='https://cdn.discordapp.com/attachments/775904281671893042/786491326820646932/z230_version_pagina.png' alt='Foto Oficina' width='787'></img>
                 </div>
             </div>
     );
