@@ -1,41 +1,41 @@
 import React from 'react'
-import {Button} from "react-bootstrap";
+import {button} from "react-bootstrap";
 import {
   Link
 } from "react-router-dom";
-
+import "./renderizado.css"
 
 const renderizado = () => {
     return (
             <div>
                 <div>
-                    <img src='https://i.imgur.com/GWa6yWs.jpg'alt='Foto Renderizado' width='650' ></img>
-                </div>
-                <div>
                     <Link to= '/pcrender/cpurender' >
-                            <Button>cpu</Button>
+                            <button className="btncpu">cpu</button>
                     </Link>
                     <Link to='/pcrender/frontpanelrender' >
-                            <Button> front Panel </Button>
+                            <button className="btnfp"> front Panel </button>
                     </Link>
                     <Link to='/pcrender/hddrender' >
-                            <Button> HDD   </Button>
+                            <button className="btnhdd"> HDD   </button>
                     </Link>
                     <Link to='/pcrender/gpurender' >
-                            <Button>GPU render</Button>
+                            <button className="btngpu">GPU render</button>
                     </Link>
                     <Link to='/pcrender/m2render' >
-                            <Button>m2 render</Button>
+                            <button className="btnm2">m2 render</button>
                     </Link>
                     <Link to='/pcrender/motherrender' >
-                            <Button>Placa madre render</Button>
+                            <button className="btnm">Placa madre render</button>
                     </Link>
                     <Link to='/pcrender/psurender' >
-                            <Button> PSU (Fuente de poder) render</Button>
+                            <button className="btnpsu"> PSU (Fuente de poder) render</button>
                     </Link>
                     <Link to='/pcrender/ramrender' >
-                            <Button>RAM</Button>
+                            <button className="btnram">RAM</button>
                     </Link>
+                </div>
+                <div>
+                    <img src='https://i.imgur.com/GWa6yWs.jpg'alt='Foto Renderizado' width='650' ></img>
                 </div>
             </div>
     );

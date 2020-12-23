@@ -1,19 +1,74 @@
-.btncpu {
+.btnmb {
     position: absolute;
-    left: 709px;
-    top: 44px;
-    width: 157px;
-    height: 104px;
+    left: 408px;
+    top: 330px;
+    width: 115px;
+    height: 168px;
     background-color:rgba(3, 9, 99, .0);
     border-radius: 5px;
 }
-.btnmb {
+.btncpu {
     position: absolute;
-    left: 600px;
-    top: 360px;
-    width: 115px;
-    height: 169px;
+    left: 516px;
+    top: 14px;
+    width: 159px;
+    height: 105px;
     background-color:rgba(3, 9, 99, .0);
     border-radius: 5px;
-
+}
+.btnram {
+    position: absolute;
+    left: 718px;
+    top: 30px;
+    width: 127px;
+    height: 101px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btngpu {
+    position: absolute;
+    left: 408px;
+    top: 169px;
+    width: 118px;
+    height: 121px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnm2 {
+    position: absolute;
+    left: 860px;
+    top: 610px;
+    width: 225px;
+    height: 70px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnpsu {
+    position: absolute;
+    left: 539px;
+    top: 538px;
+    width: 158px;
+    height: 134px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnhdd {
+    position: absolute;
+    left: 937px;
+    top: 519px;
+    width: 148px;
+    height: 92px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnfp {
+    position: absolute;
+    left: 970px;
+    top: 351px;
+    width: 169px;
+    height: 131px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
 }
