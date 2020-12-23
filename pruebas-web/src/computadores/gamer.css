@@ -72,3 +72,11 @@
     background-color:rgba(3, 9, 99, .0);
     border-radius: 5px;
 }
+.App {
+    background-image: url(https://cdn.discordapp.com/attachments/775904281671893042/791355915277959199/descargar.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+}
