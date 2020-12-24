@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "./gamer.css"
+import Popupg from './popupgamer'
 
 function Gamer() {
     return (
@@ -38,6 +39,7 @@ function Gamer() {
             <div>
                 <h3>Te recomendamos empezar por la placa madre para una mejor experiencia aprendiendo ;)</h3>
             </div>
+            <Popupg/>
             <Link to='/'>
                     <button type="button" class="btn btn-primary btn-lg btn-block">Volver a la página principal</button>
             </Link>
