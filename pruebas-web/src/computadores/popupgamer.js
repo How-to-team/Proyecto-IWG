@@ -81,6 +81,7 @@ export default function CustomizedDialogs() {
           </Typography>
           <Typography gutterBottom>
             En la siguiente página puedes encontrar el ranking de los mejores componentes actualmente: <Link href='https://www.userbenchmark.com/' target='_blank'>Aqui</Link>
+            hola
           </Typography>
         </DialogContent>
         <DialogActions>
