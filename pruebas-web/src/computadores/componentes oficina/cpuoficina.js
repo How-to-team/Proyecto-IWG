@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Button from '@material-ui/core/Button';
-import fondox from '/imagenes oficina/fondox.jpg'
+import fondox from './imagenes oficina/fondox.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
