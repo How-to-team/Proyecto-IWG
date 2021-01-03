@@ -1,0 +1,87 @@
+.btnrmb {
+    position: absolute;
+    left: 417px;
+    top: 194px;
+    width: 95px;
+    height: 125px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnrcpu {
+    position: absolute;
+    left: 580px;
+    top: 26px;
+    width: 103px;
+    height: 70px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnrram {
+    position: absolute;
+    left: 770px;
+    top: 7px;
+    width: 136px;
+    height: 86px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnrgpu {
+    position: absolute;
+    left: 416px;
+    top: 348px;
+    width: 104px;
+    height: 121px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnrm2 {
+    position: absolute;
+    left: 913px;
+    top: 670px;
+    width: 141px;
+    height: 43px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;   
+    border-style: hidden;       
+}
+.btnrpsu {
+    position: absolute;
+    left: 565px;
+    top: 589px;
+    width: 148px;
+    height: 100px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnrhdd {
+    position: absolute;
+    left: 913px;
+    top: 590px;
+    width: 141px;
+    height: 82px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.btnrfp {
+    position: absolute;
+    left: 731px;
+    top: 602px;
+    width: 170px;
+    height: 112px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.AppRender {
+    background-image: url(https://fondosmil.com/fondo/22091.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: yellow;
+    font-family: cursive;
+}

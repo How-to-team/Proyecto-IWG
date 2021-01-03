@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button, CardDeck } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import "./navegacion.css"
 
 
 function navegacion() {
@@ -12,7 +11,7 @@ function navegacion() {
         <div className="Appnav">
             <div className="cards">
                 <h1 className='titulo'> Interactive learning hardware & assembly</h1>
-                <CardDeck>
+                <CardDeck className="card-deck">
                     <Card className='cardgamer' bg='info' border='dark'>
                     <Card.Body>
                         <Card.Title>PC Gamer</Card.Title>
@@ -49,7 +48,6 @@ function navegacion() {
                         <br/>
                         <br/>
                         <br/>
-                
                         </Card.Text>
                         <Card.Img variant="top" src="https://media.discordapp.net/attachments/775904281671893042/783396199679262731/z230-.png?width=580&height=495"/>
                     </Card.Body>

@@ -1,38 +1,48 @@
 import React from 'react'
-import {Button} from "react-bootstrap";
+import {button} from "react-bootstrap";
 import {
   Link
 } from "react-router-dom";
+import "./oficina.css"
+import Popupg from './popupoficina'
 
 const oficina = () => {
     return (
-            <div>
+            <div className='Appoficina'>
                 <div>
                     <img src='https://cdn.discordapp.com/attachments/775904281671893042/786491326820646932/z230_version_pagina.png' alt='Foto Oficina' width='787'></img>
                 </div>
                 <div>
                     <Link to= '/pcoffice/cpuoficina'>
-                        <Button>cpu</Button>
+                        <button className="btnocpu"></button>
                     </Link>
                     <Link to='/pcoffice/frontpaneloficina'>
-                        <Button> front Panel </Button>
+                        <button className="btnofp"></button>
                     </Link>
                     <Link to='/pcoffice/hddoficina'>
-                        <Button> HDD   </Button>
+                        <button className="btnohdd"></button>
                     </Link>
                     <Link to='/pcoffice/lectorCDoficina'>
-                        <Button>Lector de CD</Button>
+                        <button className="btnolector"></button>
                     </Link>
                     <Link to='/pcoffice/motheroficina'>
-                        <Button>Placa madre</Button>
+                        <button className="btnomb"></button>
                     </Link>
                     <Link to='/pcoffice/psuoficina'>
-                        <Button> PSU (Fuente de poder)</Button>
+                        <button className="btnopsu"></button>
                     </Link>
                     <Link to='/pcoffice/ramoficina'>
-                        <Button>RAM</Button>
+                        <button className="btnoRAM"></button>
                     </Link>
                 </div>
+                <br/>
+                <div>
+                    <h3>Por una mejor experiencia te recomendamos empezar en la placa madre :)</h3>
+                </div>
+                <Popupg/>
+                <Link to='/'>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Volver a la página principal</button>
+                </Link>
             </div>
     );
 }

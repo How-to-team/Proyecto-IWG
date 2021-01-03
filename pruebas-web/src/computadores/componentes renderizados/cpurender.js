@@ -5,13 +5,19 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { Link } from "react-router-dom";
 import Button from '@material-ui/core/Button';
-
+import fondo from './imagenes render/fondo.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    backgroundImage: `url(${fondo})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
+    color: "white",
+    backgroundAttachment: "fixed",
   },
   main: {
     marginTop: theme.spacing(8),
@@ -20,8 +26,7 @@ const useStyles = makeStyles((theme) => ({
   footer: {
     padding: theme.spacing(3, 2),
     marginTop: 'auto',
-    backgroundColor:
-      theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
+    backgroundColor: "rgba(3, 9, 99, .59)",
   },
 }));
 

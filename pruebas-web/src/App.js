@@ -27,7 +27,7 @@ import M2render from './computadores/componentes renderizados/m2render';
 import Motherrender from './computadores/componentes renderizados/motherrender';
 import Psurender from './computadores/componentes renderizados/psurender';
 import Ramrender from './computadores/componentes renderizados/ramrender';
-
+import "./App.css"
 
 
 function App() {

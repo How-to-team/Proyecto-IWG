@@ -1,0 +1,80 @@
+.btnomb {
+    position: absolute;
+    left: 537px;
+    top: 613px;
+    width: 152px;
+    height: 160px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnocpu {
+    position: absolute;
+    left: 370px;
+    top: 302px;
+    width: 154px;
+    height: 152px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnoRAM {
+    position: absolute;
+    left: 735px;
+    top: 58px;
+    width: 147px;
+    height: 158px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnogpu {
+    position: absolute;
+    left: 393px;
+    top: 169px;
+    width: 118px;
+    height: 121px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnolector {
+    position: absolute;
+    left: 953px;
+    top: 229px;
+    width: 173px;
+    height: 149px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;     
+}
+.btnopsu {
+    position: absolute;
+    left: 517px;
+    top: 15px;
+    width: 181px;
+    height: 183px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.btnohdd {
+    position: absolute;
+    left: 971px;
+    top: 392px;
+    width: 145px;
+    height: 188px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+    border-style: 5px;
+}
+.btnofp {
+    position: absolute;
+    left: 768px;
+    top: 606px;
+    width: 239px;
+    height: 174px;
+    background-color:rgba(3, 9, 99, .0);
+    border-radius: 5px;
+}
+.Appoficina {
+    background-image: url(https://images.unsplash.com/photo-1495370080808-424fd642b358?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: blue;
+} 
