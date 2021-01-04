@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Button from '@material-ui/core/Button';
-import fondox from './imagenes oficina/fondox.jpg'
+import fondox from './imagenes oficina/fondox.jpeg'
 import postorn from "./imagenes oficina/tornillosplaca.webp"
 import tornillos from "./imagenes oficina/soportesplaca.jpg"
 import sizes from "./imagenes oficina/tamañomb.jpg"

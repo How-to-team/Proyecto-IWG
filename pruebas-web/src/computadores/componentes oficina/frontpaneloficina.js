@@ -9,7 +9,7 @@ import {
 import Button from '@material-ui/core/Button';
 import ReactPlayer from "react-player"
 import jfp from "./imagenes oficina/jfp.jpg"
-import fondox from './imagenes oficina/fondox.jpg'
+import fondox from './imagenes oficina/fondox.jpeg'
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundImage: `url(${fondox})`,

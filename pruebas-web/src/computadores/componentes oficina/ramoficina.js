@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Button from '@material-ui/core/Button';
-import fondox from './imagenes oficina/fondox.jpg'
+import fondox from './imagenes oficina/fondox.jpeg'
 import ReactPlayer from "react-player"
 
 const useStyles = makeStyles((theme) => ({
