@@ -71,7 +71,7 @@ export default function CustomizedDialogs() {
         </DialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom>
-            Para este computador te recomendamos enfocar tu presupuesto en una buena tarjeta de video y un procesador a la altura de este.
+            Para este computador te recomendamos enfocar tu presupuesto en un procesador con altos numeros de nucleos e hilos de trabajo. Los procesadores Ryzen son los que destacan en esta area debido a su gran cantidad de nucleos y su buen rendimiento en lo que a multitareas se refiere.
           </Typography>
           <Typography gutterBottom>
             En la siguiente página puedes ver compatibilidad entre componentes: <Link href='https://pcpartpicker.com/list/' target='_blank'>Aqui</Link> 
