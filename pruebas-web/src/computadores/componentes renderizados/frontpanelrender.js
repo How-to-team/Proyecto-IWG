@@ -6,6 +6,8 @@ import Container from '@material-ui/core/Container';
 import { Link } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import fondo from './imagenes render/fondo.jpg'
+import ReactPlayer from "react-player";
+import jfp from './imagenes render/jfp.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
-    color: "white",
+    color: "#46ffff",
     backgroundAttachment: "fixed",
   },
   main: {
@@ -38,12 +40,21 @@ export default function StickyFooter() {
       <CssBaseline />
       <Container component="main" className={classes.main} maxWidth="sm">
         <Typography variant="h1" component="h1" gutterBottom>
-          Panel Frontal del gabinete
+          Panel frontal del gabinete 
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
-          {"Breve descripcion del componente"}
+        <Typography variant="h5" component="h2" gutterBottom>El panel frontal corresponde a las funcionalidades que vienen incluidas en el gabinete, dentro de estas funcionalidades encontramos: El boton de encendido y apagado (Power SW y Reset SW), leds que nos indican que está encendida la máquina (Power led+ y Power led-) y un led que nos indica que el disco duro está funcionando correctamente (H.D.D LED).   </Typography>
+        <Typography variant="h2">
+          Como conectar los cables del panel frontal
         </Typography>
-        <Typography variant="body1">cuerpo de la descripcion del componente.</Typography>
+        <Typography variant="h6" component="h5" gutterBottom>
+          A continuación podras ver un video que te ayudará a conectar los cables del panel frontal de manera correcta.
+        </Typography>
+        <Typography variant="h6" component="h5" gutterBottom>
+          <ReactPlayer url="https://youtu.be/linZDwva1Ec?t=8" className={classes.video} />
+          La conexion del panel frontal siempre será igual para todos los computadores, sin embargo, los pines a los que van conectados pueden cambiar de lugar dependiendo de la placa madre.
+          En la siguiente imagen se mostrará la forma que tienen los conectores del panel frontal.
+          <img src={jfp} alt="FrontPanel" className={classes.img} />
+        </Typography>
       </Container>
       <footer className={classes.footer}>
         <Container maxWidth="sm">

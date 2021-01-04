@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import { Link } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import fondo from './imagenes render/fondo.jpg'
+import ReactPlayer from "react-player"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',
-    color: "white",
+    color: "#46ffff",
     backgroundAttachment: "fixed",
   },
   main: {
@@ -38,12 +39,20 @@ export default function StickyFooter() {
       <CssBaseline />
       <Container component="main" className={classes.main} maxWidth="sm">
         <Typography variant="h1" component="h1" gutterBottom>
-          Memoria RAM
+          Memoria Ram 
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
-          {"Breve descripcion del componente"}
+        <Typography variant="body1">RAM son las siglas de "Random Access Memory" o "Memoria de Acceso Aleatorio". Su función principal es almacenar datos e instrucciones para que puedan ser accedidos por otros componentes básicos, de manera que evita que tengan que volver a pasar por el procesador o por la tarjeta gráfica.</Typography>
+        <br/>  
+        <Typography variant="h2">
+          Como instalar la memoria RAM
         </Typography>
-        <Typography variant="body1">cuerpo de la descripcion del componente.</Typography>
+        <br/>
+        <Typography variant="body1">
+          El instalar la memoria RAM es bastante simple y lo puedes observar brevemente en el vídeo a continuación, pero después de éste te entregaremos cierta información al momento de elegir la RAM
+          <br/>
+          <br/>
+          <ReactPlayer url="https://www.youtube.com/watch?v=ziP1DmDDjOg&feature=youtu.be" className={classes.video} />
+        </Typography>
       </Container>
       <footer className={classes.footer}>
         <Container maxWidth="sm">

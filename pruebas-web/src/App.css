@@ -1,5 +1,8 @@
 html, body, #root, .App {
-  height: 100%;
+  min-height: 100vh;
   width: auto;
   text-align: center;
+  background-image: url(https://cdn.discordapp.com/attachments/775904281671893042/791366313409904650/background-618226_960_720.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
